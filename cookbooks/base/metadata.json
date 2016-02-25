@@ -1,0 +1,30 @@
+{
+  "name": "base",
+  "version": "0.5.0",
+  "description": "Installs/Configures base",
+  "long_description": "# base-cookbook\n\nTODO: Enter the cookbook description here.\n\n## Supported Platforms\n\nTODO: List your supported platforms.\n\n## Attributes\n\n<table>\n  <tr>\n    <th>Key</th>\n    <th>Type</th>\n    <th>Description</th>\n    <th>Default</th>\n  </tr>\n  <tr>\n    <td><tt>['base']['bacon']</tt></td>\n    <td>Boolean</td>\n    <td>whether to include bacon</td>\n    <td><tt>true</tt></td>\n  </tr>\n</table>\n\n## Usage\n\n### base::default\n\nInclude `base` in your node's `run_list`:\n\n```json\n{\n  \"run_list\": [\n    \"recipe[base::default]\"\n  ]\n}\n```\n\n## License and Authors\n\nAuthor:: Daniel Ku (<kjunine@gmail.com>)\n",
+  "maintainer": "Daniel Ku",
+  "maintainer_email": "kjunine@gmail.com",
+  "license": "MIT",
+  "platforms": {
+  },
+  "dependencies": {
+    "apt": ">= 0.0.0"
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+  }
+}
